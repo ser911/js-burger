@@ -1,0 +1,50 @@
+/* RESET SETTINGS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff5e2;
+}
+
+.wrapper{
+  width: 50%;
+}
+header{
+  background-color: #fdbb40;
+  padding: 60px;
+
+}
+
+main{
+background-color: #fff;
+}
+.main-content{
+  width: 80%;
+  margin: 0 auto;
+}
+.main-title h3{
+  padding-bottom: 20px;
+}
+
+.main-core{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.main-core img {
+  height: 40px;
+}
+.main-core ul {
+  list-style-type: none;
+
+}
+.main-options{
+  text-align: center;
+}
+.main-options button {
+  display: block;
+  margin: 20px auto 40px;;
+}
