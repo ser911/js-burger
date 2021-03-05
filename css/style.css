@@ -30,21 +30,36 @@ background-color: #fff;
 
 .main-core{
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  padding-bottom: 20px;
 
 }
 .main-core img {
   height: 40px;
 }
-.main-core ul {
-  list-style-type: none;
+
+.main-menu-right, .main-menu-left {
+  width: 50%;
+  display: inline-block;
 
 }
+
 .main-options{
   text-align: center;
+    padding-bottom: 15px;
 }
 .main-options button {
   display: block;
-  margin: 20px auto 40px;;
+  margin: 20px auto 0;
+
+}
+
+footer{
+  background-color: #d33359;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10px;
+
+}
+footer h3, footer span {
+  color: #fff;
 }
