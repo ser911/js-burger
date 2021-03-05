@@ -24,8 +24,11 @@ background-color: #fff;
   width: 80%;
   margin: 0 auto;
 }
+.main-title{
+  padding: 40px 20px;;
+}
 .main-title h3{
-  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .main-core{

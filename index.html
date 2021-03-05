@@ -8,63 +8,69 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="wrapper">
+  <section class="wrapper">
     <header>
       <h1>Create your burger</h1>
     </header>
     <main>
       <div class="main-content">
+
         <div class="main-title">
-          <h3>My name</h3>
+          <label for="burger-name"></label>
+  <input type="text" name="" value="" placeholder="My name" id="burger-name">
           <h3>Ingredients</h3>
 
         </div>
         <div class="main-core">
+
            <div class="main-menu-left">
              <div class="main-menu">
-               <img src="img/cheese.svg" alt="">Cheese <label for=""><input type="checkbox" id="" name="" value=""></label> add
+               <img src="img/cheese.svg" alt="">Cheese <label for=""><input type="checkbox" id="" name="" value="checked"></label> add
 
              </div>
              <div class="main-menu">
-               <img src="img/fried-egg.svg" alt="">Egg<label for=""><input type="checkbox" id="" name="" value=""></label> add
+               <img src="img/fried-egg.svg" alt="">Egg<label for=""><input type="checkbox" id="" name="" value="checked"></label> add
 
              </div>
              <div class="main-menu">
-               <img src="img/mustard.svg" alt="">Mustard <label for=""><input type="checkbox" id="" name="" value=""></label> add
+               <img src="img/mustard.svg" alt="">Mustard <label for=""><input type="checkbox" id="" name="" value="checked"></label> add
 
              </div>
 
            </div>
             <div class="main-menu-right">
               <div class="main-menu">
-                <img src="img/tomato.svg" alt="">Tomato <label for=""><input type="checkbox" id="" name="" value=""></label> add
+                <img src="img/tomato.svg" alt="">Tomato <label for=""><input type="checkbox" id="" name="" value="checked"></label> add
 
               </div>
               <div class="main-menu">
-                <img src="img/lettuce.svg" alt="">Lettuce <label for=""><input type="checkbox" id="" name="" value=""></label> add
+                <img src="img/lettuce.svg" alt="">Lettuce <label for=""><input type="checkbox" id="" name="" value="checked"></label> add
 
               </div>
               <div class="main-menu">
-                <img src="img/ketchup.svg" alt="">Ketchup <label for=""><input type="checkbox" id="" name="" value=""></label> add
+                <img src="img/ketchup.svg" alt="">Ketchup <label for=""><input type="checkbox" id="" name="" value="checked"></label> add
 
               </div>
 
             </div>
 
         </div>
+
         <div class="main-options">
-          <span>Discount coupon</span>
-          <input type="text" name="" value="">
-          <button type="button" name="button">Calculate</button>
+          <label for="discount"> Discount coupon</label>
+          <input type="text" name="" value="" id="discount">
+          <button type="button" name="button" id="calc">Calculate</button>
         </div>
+
         </div>
     </main>
+
     <footer>
-<div> <h3>Your price</h3> </div>
-<div> <span>50$</span> </div>
+<div><h3>Your price</h3></div>
+<div><span>50$</span></div>
     </footer>
 
-  </div>
+  </section>
 <script src="js/myscript.js" charset="utf-8"></script>
 </body>
 </html>
