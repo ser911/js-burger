@@ -3,15 +3,15 @@ var burgerName = document.getElementById("burger-name");
 var calculate = document.getElementById("calc");
 var discountCoupons = ["standard20"]
 
-// aggiunta evento click button
+// aggiunta evento click button - calculate
 calculate.addEventListener("click",
 function(){
-  
+
 // controllo nome
 if (burgerName.value !== "") {
 
 // aggiunta ingredienti
-var ingredients = document.getElementsByClassName("add-ing")
+var ingredients = document.getElementsByClassName("add-ing");
 
 // prezzo base
 var total = 50;
@@ -29,7 +29,7 @@ if (discountCoupons.includes(discount.value)) {
 }
 
 // stampa finale
-document.getElementById("price").innerHTML = "$ " + total ;
+document.getElementById("price").innerHTML = "$ " + total;
 }
 
 // messaggio d'errore in caso di nome assente
